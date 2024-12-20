@@ -27,6 +27,13 @@ body {
     overflow-x: hidden;
 }
 
+.container{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
 /* Barra de Navegación */
 .navbar {
     background-color: var(--azul-pastel);
@@ -91,15 +98,68 @@ h1 {
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     font-family: 'Poppins', sans-serif; 
     box-shadow: #4A4A4A 4px;
+    text-align: center;
 }
 
 
 div h6{
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 6px;
     font-size: 38px;
     color: white;
+    text-align: center;
     box-shadow: #4A4A4A 4px;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     font-family: 'Poppins', sans-serif; 
+}
+
+.btnBanner{
+    padding: 20px 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--azul-pastel-claro);
+    box-shadow: #4A4A4A 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    font-family: 'Poppins', sans-serif; 
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btnBanner:hover{
+    background-color: var(--azul-profundo);
+    
+}
+
+/*Footer*/
+
+footer {
+    background-color: #A8D8FF;  /* Azul pastel */
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-container p {
+    color: #4A4A4A;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #3A6B8A; 
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
 }
